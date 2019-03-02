@@ -2,7 +2,7 @@
     "name": "modionut/php-codesniffer-hooks",
     "description": "This is my php codesniffer hooks package.", 
     "license": "MIT",
-    "type": "composer-plugin",
+    "type": "library",
     "require-dev": {
         "squizlabs/php_codesniffer": "^3.4"
     },
