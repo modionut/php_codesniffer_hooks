@@ -3,7 +3,7 @@
     "description": "This is my php codesniffer hooks package.", 
     "license": "MIT",
     "type": "library",
-    "require-dev": {
+    "require": {
         "squizlabs/php_codesniffer": "^3.4"
     },
     "authors": [
@@ -11,5 +11,10 @@
             "name": "Ionut",
             "email": "modionut@gmail.com"
         }
-    ]
+    ],
+    "scripts": {
+      "post-install-cmd": [
+        "bash vendor/modionut/php-codesniffer-hooks/src/setup_hooks.sh"
+      ]
+    }
 }
